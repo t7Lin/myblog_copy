@@ -11,10 +11,14 @@
             "id": "0cc5773a9ea5895e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "first.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "first"
             }
           }
         ]
@@ -164,7 +168,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "41cf9e5f8019c41a",
+  "active": "0cc5773a9ea5895e",
   "lastOpenFiles": [
     "first.md"
   ]
