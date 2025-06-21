@@ -17,9 +17,10 @@ params:
     inputPosition: "top"  # 输入框位置
     reactionsEnabled: "1"  # 启用表情反应
     emitMetadata: "0"  # 不发送元数据
+    strict: "0"
     theme: "light"  # 主题样式
     lang: "zh-CN"  # 语言
-    lazyLoad: true  # 延迟加载评论
+    lazyLoad: false  # 延迟加载评论
   # 是否显示代码复制按钮
   ShowCodeCopyButtons: true
   # 是否显示面包屑导航
