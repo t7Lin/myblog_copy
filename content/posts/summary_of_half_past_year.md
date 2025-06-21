@@ -1,13 +1,13 @@
 ---
 title: Summary of the Half Past Year
-published: 2025-06-20T18:36:57+08:00
+published: 2025-06-21T18:36:57+08:00
 summary: summary
 cover:
   image: /cover上半年小结.jpg
 tags:
   - 回忆
-  - 练习
-categories: 英语写作
+  - English Writing
+categories: 反思
 draft: false
 lang:
 ---
