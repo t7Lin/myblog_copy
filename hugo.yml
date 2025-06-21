@@ -6,7 +6,20 @@ theme: "PaperMod"
 # 启用首页个人简介展示
 params:
   # 是否启用评论。你需要自己配置，或者直接引入Giscus等评论系统
-  comments: false
+  comments: true
+  giscus:
+    enable: true
+    repo: "t7Lin/myblog_copy"  # GitHub 仓库
+    repoId: "R_kgDOO--uow"  # 仓库 ID
+    category: "General"  # 分类名称
+    categoryId: "DIC_kwDOO--uo84Cryyr"  # 分类 ID
+    mapping: "pathname"  # 映射方式
+    inputPosition: "top"  # 输入框位置
+    reactionsEnabled: "1"  # 启用表情反应
+    emitMetadata: "0"  # 不发送元数据
+    theme: "light"  # 主题样式
+    lang: "zh-CN"  # 语言
+    lazyLoad: true  # 延迟加载评论
   # 是否显示代码复制按钮
   ShowCodeCopyButtons: true
   # 是否显示面包屑导航
@@ -40,14 +53,16 @@ params:
 
   # 社交图标 (显示在简介下方)
   socialIcons:
-    - name: bilibili
-      url: "https://space.bilibili.com/35270927?spm_id_from=333.1007.0.0"
-    - name: github
-      url: "https://github.com/t7Lin"
     - name: email
       url: "chilltian@outlook.com"
     - name: weibo
       url: "https://weibo.com/u/7820664293"
+    - name: bilibili
+      url: "https://space.bilibili.com/35270927?spm_id_from=333.1007.0.0"
+    - name: neteasemusic
+      url: "https://music.163.com/#/user/home?id=555887312"
+    - name: github
+      url: "https://github.com/t7Lin"
     # 可以添加更多社交图标 https://github.com/adityatelange/hugo-PaperMod/wiki/Icons
 
 # 顶部导航栏的快捷链接
