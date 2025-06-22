@@ -3,7 +3,7 @@ title: Summary of the Half Past Year
 published: 2025-06-21T18:36:57+08:00
 summary: summary
 cover:
-  image: /cover上半年小结.png
+  image: /summary_of_half_past_year.png
 tags:
   - 回忆
   - English
