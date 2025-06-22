@@ -27,7 +27,7 @@ d 老师用表格列出了很多搭建方案，最终推荐了比较适合我这
 
 2. win+x打开powershell，cd到D盘，用git指令新建博客网页，出现congratulations。打开            资源管理器也可以看到博客文件夹。
 
-3. 安装Papermod主题，Powershell用git指令从Github上克隆Papermod到博客文件夹。网络        原因，这一步尝试了4次才成功。
+3. 安装Papermod主题，Powershell用git指令从Github上克隆Papermod到博客文件夹。（网络        原因，这一步尝试了4次才成功。）
 
 4. 用VS Code编辑hugo.yml等相关文件的配置。
 
@@ -39,7 +39,7 @@ d 老师用表格列出了很多搭建方案，最终推荐了比较适合我这
 
 8. 新建Github仓库，用于存放博客文件。在博客文件夹新增.gitignore文件，添加posts,.hugo_build.lock（这两个不需要传到仓库）。这里还会涉及到Papermod无法直接上传到Github仓库的问题。                                                                                                                     
 
-   跟着UP教程操作，先关闭VS Code，把博客文件夹所有文件复制到新的文件夹，接着在旧的博客文件夹里打开themes文件夹，删除Git文件夹，将旧的博客文件夹里所有文件拖到VS Code，上传到仓库就可以了，网络原因，这一步也尝试了好几次才成功。(在theme/PaperMod这里卡了好久)
+   跟着UP教程操作，先关闭VS Code，把博客文件夹所有文件复制到新的文件夹，接着在旧的博客文件夹里打开themes文件夹，删除Git文件夹，将旧的博客文件夹里所有文件拖到VS Code，上传到仓库就可以了。(在theme/PaperMod这里卡了好久。网络原因，这一步也尝试了好几次才成功。)
    
 9. 用Cloudflare部署博客。登录Cloudflare,输入域名，进入“计算”，“workers&pages”,选择刚刚创建的Github博客文件库并导入。新增环境变量，变量名称HUGO_VERSION,值0.147.8，点击保存并部署。最后设置自定义域名并激活。
 
