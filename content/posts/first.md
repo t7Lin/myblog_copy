@@ -1,57 +1,57 @@
 ---
-title: 探索数字世界：我的第一篇博客
+title: "Exploration of Digital World: My First Blog"
 published: 2025-06-20T13:34:57+08:00
 summary: 从0开始搭建Hugo静态博客
 cover:
   image: /第一篇博客封面.png
 tags:
   - 过程
-  - 感悟
 categories: 学习
 draft: false
 lang:
 ---
 
-## 为什么搭这个博客？
+## Background Introduction:
 ---
-说来话长，6月11号出了高英教资面试结果，意料之中没通过，经过总结复盘，一方面，我决定找一些练习英语写作的平台，在deepseek推荐的几个方案中，我选择了langcorrect平台，12号晚上我在上面写了一篇英文版上半年总结[[summary_of_half_past_year]]，第二天早上就收到一位外国英语母语者的反馈，帮我修正了错误表达，纠正了我的格式甚至标点，也针对性的举了地道表达的例子。
+It's a long story,on June 11th, as my expected, I was informed that I didn't pass the interview part of teaching certificate examination. After a summary review, I decide to do English writing practice on certain platforms. I chose "langcorrect" among many suggestions giving by DeepSeek. 
 
-另一方面，还是基于职业意愿，传统教培岗位令我毫无兴致，我脑海里浮现“技术文档工程师”这个以   前就略有耳闻的词。我又找d老师请教关于“技术文档工程师” 从他那我第一次接触到“markdown语法”，“Git”，“VS Code”这些个新概念。
+On the night of June 12th, I published my first English writing exercise *summary of half past year*. The next morning, I received one feedback from an Austrian native speaker, who fixed my mis-expressions and even the punctuation, illustrating natural expressions for my reference.
 
-用网页版stackedit练习了基本语法之后，我下了Obsidian,VS  Code,也注册了Github。在我学习Obsidian功能的过程中，也了解到它可以用于个人博客沉浸式写作，随后我去问了d老师很多关于“个人博客”的问题，于是就产生了了“如何搭建个人博客”的好奇心。
+On the other hand, considering my career aspiration, I'd like to explore other options besides roles in international trade or teaching. Then I asked DeepSeek for more information about "technical  writer", a position I had heard about before. During a conversation, I was exposed to new concepts like "Git", "Markdown" and "VS Code".
 
-d 老师用表格列出了很多搭建方案，最终推荐了比较适合我这种萌新的Hugo方案。
-### 搭建过程及遇到的挑战：
+After practicing basic Markdown grammar on StackEdit (a web-based editor), I moved to Obsidian, which unlocks truly immersive writing for personal blog. That sparked my motivation to finally launch my personal blog. According to DeepSeek, I chose Hugo, which is a suitable option for beginners. I installed Git and VS Code and singed up a Github account.
+## Preparation:
 ---
-1. 下载Hugo extend win.amd0.147.8压缩包解压到D盘Hugo文件夹，把exe放到bin文件夹。        然后打开系统环境变量，新建Hugo和Git路径。验证运行环境，可以显示对应版本，一            切正常。
+- Git and your Github account
+- Hugo
+- VS Code
+- Your domain 
+- Markdown editor (Obsidian or others)
+- Your Cloudflare account
+## Process：
+---
+1. Install Hugo frame ( the version I installed was extend win. amd 0.147.8), then put exe into bin folder. Set up Git and Hugo paths in Environment Variables. Verify their runtime environments.
 
-2. win+x打开powershell，cd到D盘，用git指令新建博客网页，出现congratulations。打开            资源管理器也可以看到博客文件夹。
+2. Create a Hugo project(your blog) using Git command via Powershell. You can check if your blog folder is added in File Explorer. 
 
-3. 安装Papermod主题，Powershell用git指令从Github上克隆Papermod到博客文件夹。（网络        原因，这一步尝试了4次才成功。）
+3. Install PaperMod theme. We can use Git command via Powershell to clone that theme from Github.
 
-4. 用VS Code编辑hugo.yml等相关文件的配置。
+4. Use VS Code edit your hugo.yml file. 
 
-5. 打开VS Code终端，输入指令hugo server,Enter键，ctrl+左键本地网址，进入博客主页预览效果。
+5. Run 'hugo server' command in VS Code terminal and then preview your blog site via the localhost URL (such as http://localhost:1313).
 
-6. 用Obsidian写第一篇博客并为其添加封面图，再次进入博客页面预览效果。
+6. Add your first blog.md file in content foler. You can add cover and embed video in your blog by using Hugo shortcodes.
 
-7. 新建Github仓库，用于托管博客评论区。为其安装giscus并开启评论权限，来到giscus中文界面修改相关设置，最后复制代码粘贴到相应位置（这里具体是哪个文件我忘了，当时跟着教程操作的）。进入第一篇博客页面，预览评论区效果，登录Github账号，发送测试评论成功。
+7.  Create a new repository on Github for your blog folders and comments. Here you may have difficulities in push 'PaperMod' folder. So please pay attention that your 'posts' folder and 'hugo_build.lock' file, you don't need to push these two into your repository, so you're expected to create a '.gitignore' file in your blog folder. And make sure that 'posts' and 'hugo_build.lock' are contained in '.igtignore'. 
 
-8. 新建Github仓库，用于存放博客文件。在博客文件夹新增.gitignore文件，添加posts,.hugo_build.lock（这两个不需要传到仓库）。这里还会涉及到Papermod无法直接上传到Github仓库的问题。                                                                                                                     
+    Before you push blog folder (we call it as 'my_blog') into Github repository, you have to set up a new folder (We call it as blog_copy) and copy your whole blog folders in it, which makes it convenient for follow-up management. Then delete 'my_blog/Git' and 'my_blog/themes/PaperMod/.git'. 
+    
+    After this you can push 'my_blog' folder into Github repository via VS Code. Here the blog's comment system I use is 'giscus'. You should install 'giscus' on Github firstly. And then open 'discussion' permission and choose settings for your blog repository. After this you can verify functionality via the localhost URL (such as http://localhost:1313).                                                
+8. Use Cloudflare deploy your Hugo blog project. Sign in tour Cloudflare and input your domain. Then choose 'Compute (workers) - Workers&Pages-Create-Import a repository (connecting your Github account)', select your blog repository. Pay attention to 'Environment variables, here I use HUGO_VERSION = 0.147.8 '. 
 
-   跟着UP教程操作，先关闭VS Code，把博客文件夹所有文件复制到新的文件夹，接着在旧的博客文件夹里打开themes文件夹，删除Git文件夹，将旧的博客文件夹里所有文件拖到VS Code，上传到仓库就可以了。(在theme/PaperMod这里卡了好久。网络原因，这一步也尝试了好几次才成功。)
-   
-9. 用Cloudflare部署博客。登录Cloudflare,输入域名，进入“计算”，“workers&pages”,选择刚刚创建的Github博客文件库并导入。新增环境变量，变量名称HUGO_VERSION,值0.147.8，点击保存并部署。最后设置自定义域名并激活。
-
-   5分钟左右，DNS记录会更新，通过自定义域名访问博客页面。这里卡了很久，因为没有用Cloudflare的r2存储服务存储博客的图片，导致卡顿，进入主页后文章封面无法显示，点击文章后直接522，把封面图删了之后就可以正常查看文章了。
-## 参考教程：
+   After setting up your application click 'create and deploy'. It takes about 5 minutes that Cloudflare auto-provisions DNS and SSL for you, then you can access your blog site with your domain or 'https://your domain'.
+## Reference Tutorials：
 ---
 1. [Hugo博客搭建教程以及配置调优](https://cloud.tencent.com/developer/article/2530969) 
 2. {{< bilibili "BV1bu96YqEXd" >}}
-### 小结：
----
-今天下午半天的进度非常快，比前面的四天的思路更清晰了，所以从重新搭建到最后的部署，几乎是一气呵成。
 
-前两天过于依赖deepseek，只在选主题这块就花了很多时间和精力，至少换了三个主题，只有PaperMod可以正常显示博客页面，但内容是深蓝色字体。d老师一通修改之后，博客主页变成代码开始报错，又开始让我更换主题版本，当时心态真有点崩，已经想放弃了。18号，一大早我还是不甘心，就去小破站找教程了。
-
-最后，还是选了PaperMod主题，主页预览效果也不再是压抑的深蓝色下划线字体界面了。中途结合deepseek和一些相关的技术博客，效率也更高了。整体的格式排版以及写作框架和内容我还需要学习。对我来说搭建博客这种技术活还是蛮有挑战甚至有些折磨的，但感谢有那些出教程的技术大佬们，当然也有集人类智慧于一身的d老师。
