@@ -55,7 +55,7 @@ params:
   # 社交图标 (显示在简介下方)
   socialIcons:
     - name: email
-      url: "chilltian@outlook.com"
+      url: "mailto:chilltian@outlook.com"
     - name: weibo
       url: "https://weibo.com/u/7820664293"
     - name: bilibili

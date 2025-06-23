@@ -1,7 +1,7 @@
 ---
 title: "Exploration of Digital World: My First Blog"
 published: 2025-06-20T13:34:57+08:00
-summary: 从0开始搭建Hugo静态博客
+summary: Building a Hugo static blog from scratch
 cover:
   image: /第一篇博客封面.png
 tags:
