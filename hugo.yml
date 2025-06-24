@@ -1,6 +1,6 @@
 baseURL: "https://fishlet.top"
-title: "Fishlet's blog"
-LanguageCode: "zh-CN"
+title: "Fishlet's Blog"
+LanguageCode: "zh-EN"
 theme: "PaperMod"
 
 # 启用首页个人简介展示
@@ -70,19 +70,19 @@ params:
 menu:
   main:
     - identifier: categories
-      name: 分类
+      name: Categories
       url: /categories/
       weight: 10
     - identifier: tags
-      name: 标签
+      name: Tags
       url: /tags/
       weight: 20
     - identifier: archives
-      name: 归档
+      name: Achieves
       url: /archives/
       weight: 30
     - identifier: search
-      name: 搜索
+      name: Search
       url: /search/
       weight: 40
     # 可以添加更多导航链接。weight的值越高排序越靠后
