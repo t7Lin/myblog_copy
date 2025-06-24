@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "first.md",
+                "file": "summary_of_half_past_year.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "first"
+              "title": "summary_of_half_past_year"
             }
           }
         ]
@@ -170,11 +170,11 @@
   },
   "active": "0cc5773a9ea5895e",
   "lastOpenFiles": [
-    "Vocabulary teaching design.md",
     "first.md",
+    "summary_of_half_past_year.md",
+    "Vocabulary teaching design.md",
     "Terms.txt",
     "新建文本文档.txt",
-    "summary_of_half_past_year.md",
     "Summary of the Half Past Year.md"
   ]
 }

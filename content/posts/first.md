@@ -5,11 +5,16 @@ summary: Building a Hugo static blog from scratch
 cover:
   image: /第一篇博客封面.png
 tags:
-  - 过程
-categories: 学习
+  - Technology
+  - Projects
+categories: Learning Journeys
 draft: false
-lang:
+lang: en
 ---
+
+{{< netease_music "1887199303" >}}
+
+
 
 ## Background Introduction:
 ---
