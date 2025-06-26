@@ -83,7 +83,7 @@ menu:
       url: /tags/
       weight: 20
     - identifier: archives
-      name: Achieves
+      name: Archives
       url: /archives/
       weight: 30
     - identifier: search
