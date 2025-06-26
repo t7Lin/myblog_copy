@@ -2,9 +2,14 @@ baseURL: "https://fishlet.top"
 title: "Fishlet's Blog"
 LanguageCode: "zh-EN"
 theme: "PaperMod"
-
+build:
+  future: true
+  useGitLastMod: false  # 禁用Git最后修改时间作为日
 # 启用首页个人简介展示
 params:
+    # 日期显示配置
+  showDate: true
+  showLastMod: true
   # 是否启用评论。你需要自己配置，或者直接引入Giscus等评论系统
   comments: true
   giscus:
