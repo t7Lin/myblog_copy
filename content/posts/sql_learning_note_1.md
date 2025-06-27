@@ -1,14 +1,14 @@
 ---
-title: "SQL Learning Note_1"
+title: SQL Learning Note_1
 published: 2025-06-26T22:37:57+08:00
-summary: SQL synax learning based on sqlzoo
+summary: SQL syntax learning based on sqlzoo
 cover:
-  image: "https://i1.hdslb.com/bfs/archive/88f8d10085625622d4c4a774dc4d773bd1205966.jpg" 
+  image: https://i1.hdslb.com/bfs/archive/88f8d10085625622d4c4a774dc4d773bd1205966.jpg
 tags:
   - Technology
 categories: Learning Journeys
 draft: false
-lang: 
+lang:
 ---
 
 
