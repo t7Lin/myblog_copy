@@ -155,23 +155,39 @@ SELECT name FROM world WHERE population != 0;
 
 ```
 
-## 8. 逻辑运算符：AND
+## 8. 逻辑运算符：AND 和 OR
 
-- **定义**：用于组合多个条件，只有当所有条件都为真时，整个表达式才为真。
+例题：早期医学奖与后期文学奖
 
-- **使用条件**：需要同时满足多个条件时使用。
+**题目**：
 
-- **示例**：
+展示1910年前（不含1910）的医学奖得主和2004年后（含2004）的文学奖得主的年份、奖项和姓名。
+
+**SQL语句**：
 
 ```sql
 
--- 查询欧洲人口超过1亿的国家
+SELECT yr, subject, winner
 
-SELECT name FROM world
+FROM nobel
 
-WHERE continent = 'Europe' AND population > 100000000;
+WHERE
+
+(subject = 'Medicine' AND yr < 1910) -- 条件组A：早期医学奖
+
+OR -- 逻辑或
+
+(subject = 'Literature' AND yr >= 2004) -- 条件组B：后期文学奖
 
 ```
+
+**解释**：
+
+- 条件组A：`subject = 'Medicine' AND yr < 1910` 筛选出1910年前的医学奖。
+
+- 条件组B：`subject = 'Literature' AND yr >= 2004` 筛选出2004年及以后的文学奖。
+
+- 用 **OR** 连接这两组条件，表示满足任意一组条件的记录都会被选中。
 
 ## 9. AS（别名）
 
@@ -192,3 +208,28 @@ SELECT name AS country, population AS pop FROM world;
 SELECT w.name, w.continent FROM world AS w;
 
 ```
+
+## 10. IN
+
+- **核心功能：** 筛选匹配多个值的数据
+
+- **IN 的语法：**
+
+```sql
+SELECT 列名1, 列名2, ...
+FROM 表名
+WHERE 列名 IN (值1, 值2, 值3, ...);
+```
+
+- `WHERE 列名 IN (...)`： 这是关键部分。它告诉数据库：“请找出`列名`的值**等于**括号 `(...)` 中列出的**任何一个值**的那些行”
+- `(值1, 值2, 值3, ...)`： 这是一个你指定的**值列表**。这些值可以是：
+    
+    - **数字**： `WHERE StudentID IN (1001, 1005, 1010)`
+        
+    - **文本（字符串）**： `WHERE City IN ('北京', '上海', '广州')` _(注意：字符串必须用单引号 `''` 括起来！)_
+        
+    - **日期**： `WHERE OrderDate IN ('2023-10-01', '2023-11-11')` _(日期格式取决于数据库)_
+        
+    - 列表中的值用**逗号 `,`** 分隔。
+
+
