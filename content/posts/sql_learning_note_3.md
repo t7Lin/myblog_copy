@@ -63,7 +63,6 @@ ORDER BY CASE WHEN name IN ('A','B') THEN 0 ELSE 1 END
 ```
     
 4. **范围筛选** → 双子查询比较
-    
  ```sql
  WHERE population BETWEEN (SELECT ...) AND (SELECT ...)
 ```
