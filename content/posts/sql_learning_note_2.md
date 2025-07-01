@@ -1,7 +1,7 @@
 ---
 title: SQL Learning Note_2
 published: 2025-06-27T13:02:57+08:00
-summary: SQL syntax learning based on sqlzoo
+summary: ORDER BY&IN排序
 cover:
   image: https://i1.hdslb.com/bfs/archive/88f8d10085625622d4c4a774dc4d773bd1205966.jpg
 tags:

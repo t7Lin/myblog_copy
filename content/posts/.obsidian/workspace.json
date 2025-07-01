@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "sql_learning_note_5"
             }
+          },
+          {
+            "id": "7e111b65dc71284f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sql_learning_note_6.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "sql_learning_note_6"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -183,13 +197,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "398fbba5a6cb8efd",
+  "active": "7e111b65dc71284f",
   "lastOpenFiles": [
-    "sql_learning_note_4.md",
-    "sql_learning_note_5.md",
-    "sql_learning_note_3.md",
     "sql_learning_note_1.md",
     "sql_learning_note_2.md",
+    "sql_learning_note_6.md",
+    "sql_learning_note_5.md",
+    "sql_learning_note_3.md",
+    "sql_learning_note_4.md",
     "summary_of_half_past_year.md",
     "first.md",
     "Vocabulary teaching design.md",

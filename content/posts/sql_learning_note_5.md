@@ -1,7 +1,7 @@
 ---
 title: SQL Learning Note_5
 published: 2025-06-30T23:51:57+08:00
-summary: SQL syntax learning based on sqlzoo
+summary: JOIN ON
 cover:
   image: https://i1.hdslb.com/bfs/archive/88f8d10085625622d4c4a774dc4d773bd1205966.jpg
 tags:
