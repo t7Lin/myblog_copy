@@ -60,12 +60,6 @@ params:
   socialIcons:
     - name: email
       url: "mailto:chilltian@outlook.com"
-    - name: weibo
-      url: "https://weibo.com/u/7820664293"
-    - name: bilibili
-      url: "https://space.bilibili.com/35270927?spm_id_from=333.1007.0.0"
-    - name: neteasemusic
-      url: "https://music.163.com/#/user/home?id=555887312"
     - name: github
       url: "https://github.com/t7Lin"
     # 可以添加更多社交图标 https://github.com/adityatelange/hugo-PaperMod/wiki/Icons
