@@ -1,6 +1,6 @@
 ---
 title: SQL Learning Note_6
-published: 2025-07-01T23:51:57+08:00
+published: 2025-07-01T15:31:57+08:00
 summary: CASE WHEN
 cover:
   image: https://i1.hdslb.com/bfs/archive/88f8d10085625622d4c4a774dc4d773bd1205966.jpg
@@ -10,6 +10,7 @@ categories: Learning Journeys
 draft: false
 lang:
 ---
+
 {{< netease_music "5233900" >}}
 
 ### 一、CASE WHEN 基础
