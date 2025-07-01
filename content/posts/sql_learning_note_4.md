@@ -1,3 +1,15 @@
+---
+title: SQL Learning Note_4
+published: 2025-06-29T23:51:57+08:00
+summary: SQL syntax learning based on sqlzoo
+cover:
+  image: https://i1.hdslb.com/bfs/archive/88f8d10085625622d4c4a774dc4d773bd1205966.jpg
+tags:
+  - Notes
+categories: Learning Journeys
+draft: false
+lang:
+---
 
 https://sqlzoo.net/wiki/SUM_and_COUNT
 ### 🎯 WHERE和HAVING根本区别总结
