@@ -1,6 +1,5 @@
 baseURL: "https://fishlet.top"
 title: "Fishlet's Blog"
-LanguageCode: "zh-EN"
 theme: "PaperMod"
 build:
   future: true

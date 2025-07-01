@@ -8,7 +8,7 @@ tags:
   - Notes
 categories: Learning Journeys
 draft: false
-lang:
+lang: zh
 ---
 
 {{< netease_music "5233900" >}}

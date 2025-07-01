@@ -8,7 +8,7 @@ tags:
   - Notes
 categories: Learning Journeys
 draft: false
-lang:
+lang: zh
 ---
 
 https://sqlzoo.net/wiki/SELECT_within_SELECT_Tutorial

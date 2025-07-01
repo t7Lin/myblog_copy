@@ -8,7 +8,7 @@ tags:
   - Notes
 categories: Learning Journeys
 draft: false
-lang:
+lang: zh
 ---
 
 https://sqlzoo.net/wiki/SUM_and_COUNT
