@@ -1,5 +1,5 @@
 ---
-title: SQL Learning Note_5
+title: SQL Learning Note_6
 published: 2025-07-01T23:51:57+08:00
 summary: CASE WHEN
 cover:
